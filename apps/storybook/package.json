@@ -11,6 +11,7 @@
     },
     "dependencies": {
         "@continuum-ui/components": "workspace:*",
+        "@continuum-ui/themes": "workspace:*",
         "react": "18.3.1",
         "react-dom": "18.3.1",
         "tw-animate-css": "^1.3.7"

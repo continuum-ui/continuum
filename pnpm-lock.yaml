@@ -32,6 +32,9 @@ importers:
       '@continuum-ui/components':
         specifier: workspace:*
         version: link:../../packages/components
+      '@continuum-ui/themes':
+        specifier: workspace:*
+        version: link:../../packages/themes
       react:
         specifier: 18.3.1
         version: 18.3.1

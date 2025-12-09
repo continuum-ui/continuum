@@ -1,0 +1,23 @@
+{
+    "name": "@continuum-ui/themes",
+    "version": "0.0.0",
+    "type": "module",
+    "private": true,
+    "sideEffects": [
+        "**/*.css"
+    ],
+    "exports": {
+        "./spectrum": "./spectrum.css",
+        "./continuum": "./continuum.css",
+        "./fonts": "./styles/adobe-clean.css",
+        "./postcss": "./postcss.config.js"
+    },
+    "dependencies": {
+        "@continuum-ui/tokens": "workspace:*",
+        "tw-animate-css": "^1.3.7"
+    },
+    "devDependencies": {
+        "postcss": "^8.5.3",
+        "tailwindcss": "^4.1.5"
+    }
+}
